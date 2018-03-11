@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Render a snapshot 1`] = `
+<div>
+  <header
+    className="header"
+  >
+    <h1
+      className="logo"
+    >
+      REQ
+    </h1>
+  </header>
+  <main>
+    <section>
+      <h2>
+        About
+      </h2>
+    </section>
+  </main>
+  <footer>
+    <small>
+      © 
+      2018
+    </small>
+  </footer>
+</div>
+`;
