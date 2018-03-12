@@ -10,20 +10,22 @@ class App extends Component {
 
     this.state = {
       siteName: 'REQ',
+      tagLine: 'Crafting the web',
       year: helpers(),
     };
   }
 
   render() {
+    const { siteName, tagLine, year } = this.state;
     return (
       <div>
-        <Header siteName={this.state.siteName} />
+        <Header siteName={siteName} tagLine={tagLine} />
         <main>
           <section>
             <h2>About</h2>
           </section>
         </main>
-        <Footer year={this.state.year} />
+        <Footer year={year} />
       </div>
     );
   }

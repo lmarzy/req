@@ -5,11 +5,20 @@ exports[`<App /> Render a snapshot 1`] = `
   <header
     className="header"
   >
-    <h1
-      className="logo"
+    <div
+      className="container"
     >
-      REQ
-    </h1>
+      <h1
+        className="logo"
+      >
+        REQ
+      </h1>
+      <p
+        className="tagline"
+      >
+        Crafting the web
+      </p>
+    </div>
   </header>
   <main>
     <section>

@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
-import Header from './index';
+import Footer from './Footer';
 
-const component = shallow(<Header />);
-const tree = renderer.create(<Header />).toJSON();
+const component = shallow(<Footer />);
+const tree = renderer.create(<Footer />).toJSON();
 
-describe('<Header />', () => {
-  it('Should render 1 <Header /> component', () => {
+describe('<Footer />', () => {
+  it('Should render 1 <Footer /> component', () => {
     expect(component).toHaveLength(1);
   });
 

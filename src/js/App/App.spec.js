@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
-import App from './index';
+import App from './App';
 
 const component = shallow(<App />);
 const tree = renderer.create(<App />).toJSON();

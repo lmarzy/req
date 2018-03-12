@@ -4,8 +4,15 @@ exports[`<Header /> Render a snapshot 1`] = `
 <header
   className="header"
 >
-  <h1
-    className="logo"
-  />
+  <div
+    className="container"
+  >
+    <h1
+      className="logo"
+    />
+    <p
+      className="tagline"
+    />
+  </div>
 </header>
 `;
