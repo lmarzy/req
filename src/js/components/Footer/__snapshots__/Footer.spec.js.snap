@@ -1,9 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Footer /> Render a snapshot 1`] = `
+exports[`<Footer /> Should render a snapshot 1`] = `
 <footer>
   <small>
     © 
+    10
   </small>
 </footer>
 `;

@@ -25,3 +25,12 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
+main {
+  position: relative;
+  margin-top: -80px;
+
+  @include bp(20) {
+    margin-top: -100px;
+  }
+}

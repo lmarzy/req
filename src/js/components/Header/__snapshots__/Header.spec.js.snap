@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Header /> Render a snapshot 1`] = `
+exports[`<Header /> Should render a snapshot 1`] = `
 <header
   className="header"
 >
@@ -9,10 +9,14 @@ exports[`<Header /> Render a snapshot 1`] = `
   >
     <h1
       className="logo"
-    />
+    >
+      name
+    </h1>
     <p
       className="tagline"
-    />
+    >
+      tagline
+    </p>
   </div>
 </header>
 `;

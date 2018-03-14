@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Footer } from 'components';
+import { Header, Footer, AboutSection } from 'components';
 import helpers from '../helpers';
 
 import '../../css/app.scss';
@@ -10,7 +10,7 @@ class App extends Component {
 
     this.state = {
       siteName: 'REQ',
-      tagLine: 'Crafting the web',
+      tagLine: 'Crafting a better web',
       year: helpers(),
     };
   }
@@ -21,9 +21,7 @@ class App extends Component {
       <div>
         <Header siteName={siteName} tagLine={tagLine} />
         <main>
-          <section>
-            <h2>About</h2>
-          </section>
+          <AboutSection />
         </main>
         <Footer year={year} />
       </div>
