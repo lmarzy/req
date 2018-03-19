@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<App /> Render a snapshot 1`] = `
+exports[`<App /> Should render a snapshot 1`] = `
 <div>
   <header
     className="header"
@@ -11,26 +11,20 @@ exports[`<App /> Render a snapshot 1`] = `
       <h1
         className="logo"
       >
-        REQ
+        React Kickstarter
       </h1>
-      <p
-        className="tagline"
-      >
-        Crafting the web
-      </p>
     </div>
   </header>
   <main>
-    <section>
-      <h2>
-        About
-      </h2>
-    </section>
+    <div>
+      <h1>
+        REQ
+      </h1>
+    </div>
   </main>
   <footer>
     <small>
-      © 
-      2018
+      © 2017 React Kickstarter
     </small>
   </footer>
 </div>

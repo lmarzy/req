@@ -1,0 +1,38 @@
+// ========================================================================
+// JS/COMPONENTS/HEADER
+// ========================================================================
+
+@import '~sassHelpers';
+
+.header {
+  display: flex;
+  height: 100vh;
+  padding-top: 20vh;
+  justify-content: center;
+  background-image: linear-gradient(to right top, $col-a, $col-b);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  @include bp(10) {
+    font-size: 72px;
+  }
+}
+
+.tagLine {
+  font-size: 18px;
+  color: rgba(white, 0.7);
+
+  @include bp(10) {
+    @include vr(24px, 2);
+  }
+}

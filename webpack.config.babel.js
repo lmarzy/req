@@ -64,6 +64,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
     alias: {
+      containers: `${paths.JS}/containers`,
       components: `${paths.JS}/components`,
       sassHelpers: `${paths.CSS}/01-helpers/helpers.scss`,
     },

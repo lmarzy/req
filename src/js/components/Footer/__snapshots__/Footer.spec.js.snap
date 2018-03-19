@@ -3,8 +3,7 @@
 exports[`<Footer /> Should render a snapshot 1`] = `
 <footer>
   <small>
-    © 
-    10
+    © 2017 React Kickstarter
   </small>
 </footer>
 `;

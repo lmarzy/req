@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './header.scss';
+import styles from './styles.scss';
 
-const Header = props => (
+const Header = ({ siteName, tagLine }) => (
   <header className={styles.header}>
     <div className={styles.container}>
-      <h1 className={styles.logo}>{props.siteName}</h1>
-      <p className={styles.tagline}>{props.tagLine}</p>
+      <h1 className={styles.logo}>{siteName}</h1>
+      <p className={styles.tagLine}>{tagLine}</p>
     </div>
   </header>
 );

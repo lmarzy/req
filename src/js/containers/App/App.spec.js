@@ -17,7 +17,7 @@ describe('<App />', () => {
     render(<App />, div);
   });
 
-  it('Render a snapshot', () => {
+  it('Should render a snapshot', () => {
     expect(tree).toMatchSnapshot();
   });
 });

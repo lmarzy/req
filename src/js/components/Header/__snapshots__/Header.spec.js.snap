@@ -10,13 +10,8 @@ exports[`<Header /> Should render a snapshot 1`] = `
     <h1
       className="logo"
     >
-      name
+      React Kickstarter
     </h1>
-    <p
-      className="tagline"
-    >
-      tagline
-    </p>
   </div>
 </header>
 `;

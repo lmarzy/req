@@ -1,14 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const Footer = props => (
+const Footer = () => (
   <footer>
-    <small>&copy; {props.year}</small>
+    <small>&copy; 2017 React Kickstarter</small>
   </footer>
 );
-
-Footer.propTypes = {
-  year: PropTypes.number.isRequired,
-};
 
 export default Footer;

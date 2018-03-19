@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> Should render a snapshot 1`] = `
+<div>
+  <h1>
+    REQ
+  </h1>
+</div>
+`;
